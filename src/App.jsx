@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import Hola from './saludo'
+import Anecdotes from "./ejerPart1/1-12_14"
+import Eje1_6 from "./ejerPart1/1-6_11"
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+const App = () => {
+
+  return(
     <>
-      <h1>parte 1 React</h1>
-      <Hola nombre='gustavo' edad={34}/>
-      <Hola nombre='maria' edad={26}/>
+  <Anecdotes/>
+    <hr />
+  <Eje1_6/>
+
     </>
   )
 }
