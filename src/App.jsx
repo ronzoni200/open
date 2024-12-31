@@ -1,17 +1,13 @@
-import Anecdotes from "./ejerPart1/1-12_14"
-import Eje1_6 from "./ejerPart1/1-6_11"
-
+import ApuntesParteDos from "./ejerParte2/apuntesPart2/apuntesParte2"
+import Pais from "./ejerParte2/ejerPaises2.18/paises"
 
 const App = () => {
-
-  return(
-    <>
-  <Anecdotes/>
-    <hr />
-  <Eje1_6/>
-
-    </>
+  return (
+    <div>
+  <ApuntesParteDos/>
+    </div>
   )
 }
 
 export default App
+
